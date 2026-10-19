@@ -3,7 +3,7 @@
     <!-- Brand Logo -->
     <a href="<?= base_url('admin') ?>" class="brand-link">
       <img src="<?= base_url('assets/') ?>dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">FAKIH VAPING STORE</span>
+      <span class="brand-text font-weight-light">FAKIH STORE</span>
     </a>
 
     <!-- Sidebar -->
@@ -39,21 +39,21 @@
             <a href="#" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Starter Pages
+                Master
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link active">
+                 <a href="<?= base_url() ?>admin/kategori" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Active Page</p>
+                  <p>Kategori</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Inactive Page</p>
+                  <a href="<?= base_url() ?>admin/produk" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Produk</p>
                 </a>
               </li>
             </ul>
